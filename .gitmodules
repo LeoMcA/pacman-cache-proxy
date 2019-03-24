@@ -1,0 +1,3 @@
+[submodule "nginx_pacman_cache_config"]
+	path = nginx_pacman_cache_config
+	url = https://github.com/nastasie-octavian/nginx_pacman_cache_config.git
