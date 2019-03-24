@@ -9,3 +9,4 @@ services:
       - ".env"
     volumes:
       - "./pacman-cache:/srv/http/pacman-cache"
+    restart: always
