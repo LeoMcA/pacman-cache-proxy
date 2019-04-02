@@ -1,4 +1,5 @@
 FROM archlinux/base:latest
+COPY mirrorlist /etc/pacman.d/mirrorlist
 RUN pacman -Syu --noconfirm \
   nginx \
   pacman-contrib
