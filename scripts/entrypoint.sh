@@ -10,5 +10,5 @@ sed -i "s/http:\/\/mirror3\.domain\.example\/arch/http:\/\/mirror\.bytemark\.co\
 
 cat nginx.conf
 
-fcron -f -l 0
+fcron -l 0
 nginx -g "daemon off;"
