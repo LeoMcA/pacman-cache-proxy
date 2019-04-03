@@ -1,2 +1,2 @@
-@reboot /bin/clean.sh >> /var/log/pacman-clean.log
-* 5 * * * /bin/clean.sh >> /var/log/pacman-clean.log
+@reboot /bin/update-and-clean.sh >> /var/log/pacman-update-clean.log
+* 5 * * * /bin/update-and-clean.sh >> /var/log/pacman-update-clean.log

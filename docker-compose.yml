@@ -1,4 +1,4 @@
-version: "3"
+version: "3.6"
 
 services:
   default:
@@ -9,4 +9,6 @@ services:
       - ".env"
     volumes:
       - "./pacman-cache:/srv/http/pacman-cache"
+      - type: tmpfs
+        target: /pacman-cache
     restart: always

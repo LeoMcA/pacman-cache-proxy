@@ -9,7 +9,7 @@ WORKDIR /root
 COPY scripts/crontab .
 RUN fcrontab crontab
 WORKDIR /bin
-COPY scripts/clean.sh .
+COPY scripts/update-and-clean.sh .
 COPY scripts/entrypoint.sh .
 WORKDIR /etc/nginx
 COPY nginx_pacman_cache_config/nginx.conf ./nginx.conf.orig
